@@ -76,6 +76,7 @@ export const socials = [
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    profileLink: 'https://www.linkedin.com/in/wasifali22', // Replace with the actual LinkedIn profile URL
   },
   {
     name: 'instagram',

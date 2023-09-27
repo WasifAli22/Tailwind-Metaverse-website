@@ -1,6 +1,7 @@
 'use client';
-import { motion } from 'framer-motion'
-import { textContainer, textVariant, textVariant2 } from '../utils/motion'
+
+import { motion } from 'framer-motion';
+import { textContainer, textVariant2 } from '../utils/motion';
 
 export const TypingText = ({ title, textStyles }) => (
   <motion.p variants={textContainer} className={`${textStyles} font-normal text-[14px] text-secondary-white`}>
